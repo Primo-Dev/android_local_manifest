@@ -16,7 +16,7 @@
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" revision="jellybean" />
 
   <!-- Awidawad -->
-  <project path="local_manifest" name="awid777/android_local_manifest" revision="primo-EXPERIMENTAL" />
+  <project path="local_manifest" name="Primo-Dev/android_local_manifest" revision="primo-EXPERIMENTAL" />
   
   <!-- These will change frequently... -->
   <project path="kernel/htc/msm7x30" name="codefireXperiment/kernel_htc_msm7x30" remote="github" revision="jb-devel-mr2-release" />
