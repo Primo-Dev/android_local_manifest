@@ -12,6 +12,7 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="platform/prebuilts/misc" />
+  
   <!-- CM hack -->
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" revision="jellybean" />
 
@@ -19,7 +20,7 @@
   <project path="local_manifest" name="Primo-Dev/android_local_manifest" revision="primo-EXPERIMENTAL" />
   
   <!-- These will change frequently... -->
-  <project path="kernel/htc/awidkernel" name="Primo-Dev/android_kernel_htc_msm7x30" remote="github" revision="4.3_primoc" />
+  <project path="kernel/htc/primoc" name="bradthomas127/kernel_htc_msm7x30" remote="github" revision="jb-mr2-primoc" />
   <project path="frameworks/av" name="codefireXperiment/frameworks_av" revision="jb-devel-mr2-release" />
   <project path="hardware/qcom/display" name="codefireXperiment/hardware_qcom_display" revision="jb-devel-mr2-release" />
   <project path="frameworks/native" name="codefireXperiment/frameworks_native" revision="jb-devel-mr2-release" />
@@ -34,5 +35,6 @@
   <project path="vendor/htc/primoc" name="Primo-Dev/android_vendor_htc_primoc" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/display-legacy" name="codefireXperiment/hardware_qcom_display-legacy" remote="github" revision="jb-devel-mr2-release" />
   <project path="hardware/qcom/media-legacy" name="codefireXperiment/hardware_qcom_media-legacy" remote="github" revision="jb-devel-mr2-release" />
+  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.4.3" name="rukin5197/arm-eabi-4.4.3" remote="github" revision="jellybean" />
    
 </manifest>
