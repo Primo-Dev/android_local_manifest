@@ -7,6 +7,7 @@
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media-caf" />
   <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
@@ -23,6 +24,7 @@
   <project path="kernel/htc/primoc" name="bradthomas127/android_kernel_htc_primoc" remote="github" revision="jellybean" />
   <project path="frameworks/av" name="codefireXperiment/frameworks_av" revision="jb-devel-mr2-release" />
   <project path="hardware/qcom/display" name="codefireXperiment/hardware_qcom_display" revision="jb-devel-mr2-release" />
+  <project path="hardware/qcom/display-caf" name="OpenSEMC/android_hardware_qcom_display-caf" revision="cm-10.2" />
   <project path="frameworks/native" name="codefireXperiment/frameworks_native" revision="jb-devel-mr2-release" />
   <project path="hardware/qcom/media" name="codefireXperiment/hardware_qcom_media" revision="jb-devel-mr2-release" />
   <project path="hardware/qcom/media-caf" name="codefireXperiment/hardware_qcom_media-caf" revision="jb-devel-mr2-release" />
