@@ -2,7 +2,8 @@
 <manifest>
 
   <!-- Remotes -->
-
+  <!-- NONE FOR NOW... -->
+  
   <!-- remove CM repos -->
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <remove-project name="CyanogenMod/android_frameworks_native" />
@@ -17,10 +18,10 @@
   <!-- CM hack -->
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" revision="jellybean" />
 
-  <!-- Awidawad -->
+  <!-- Primo-Dev -->
   <project path="local_manifest" name="Primo-Dev/android_local_manifest" revision="primo-EXPERIMENTAL" />
   
-  <!-- These will change frequently... -->
+  <!-- Hardware/Device Trees -->
   <project path="kernel/htc/primoc" name="bradthomas127/android_kernel_htc_primoc" remote="github" revision="jellybean" />
   <project path="frameworks/av" name="codefireXperiment/frameworks_av" revision="jb-devel-mr2-release" />
   <project path="hardware/qcom/display" name="codefireXperiment/hardware_qcom_display" revision="jb-devel-mr2-release" />
@@ -30,13 +31,15 @@
   <project path="hardware/qcom/media-caf" name="codefireXperiment/hardware_qcom_media-caf" revision="jb-devel-mr2-release" />
   <project path="prebuilts/misc" name="codefireXperiment/prebuilts_misc" revision="jb-devel-mr2-release" />
   <project path="vendor/qcom/proprietary" name="codefireXperiment/vendor_qcom_proprietary" revision="jb-devel-mr2-release" />
-  <!--<project path="kernel/htc/SickleKernel" name="SickleKernels/android_kernel_htc_msm7x30" remote="github" revision="jellybean-4.2" />-->
   <project path="device/htc/msm7x30-common" name="codefireXperiment/device_htc_msm7x30-common" remote="github" revision="jb-devel-mr2-release" />
   <project path="device/htc/primoc" name="Primo-Dev/android_device_htc_primoc" remote="github" revision="cm-10.2" />
-  <!--<project path="kernel/htc/primoc" name="Primo-Dev/android_kernel_htc_primoc" remote="github" revision="jellybean" />-->
   <project path="vendor/htc/primoc" name="Primo-Dev/android_vendor_htc_primoc" remote="github" revision="cm-10.1" />
+  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.4.3" name="rukin5197/arm-eabi-4.4.3" remote="github" revision="jellybean" />
+  
+  <!-- Things that we can mess with later -->
   <!--<project path="hardware/qcom/display-legacy" name="codefireXperiment/hardware_qcom_display-legacy" remote="github" revision="jb-devel-mr2-release" />-->
   <!--<project path="hardware/qcom/media-legacy" name="codefireXperiment/hardware_qcom_media-legacy" remote="github" revision="jb-devel-mr2-release" />-->
-  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.4.3" name="rukin5197/arm-eabi-4.4.3" remote="github" revision="jellybean" />
+  <!--<project path="kernel/htc/primoc" name="Primo-Dev/android_kernel_htc_primoc" remote="github" revision="jellybean" />-->
+  <!--<project path="kernel/htc/SickleKernel" name="SickleKernels/android_kernel_htc_msm7x30" remote="github" revision="jellybean-4.2" />-->
    
 </manifest>
